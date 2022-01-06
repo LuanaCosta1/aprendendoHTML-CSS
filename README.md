@@ -5,9 +5,11 @@ Projetos simples feitos somente com HTML e CSS (e um pouco de Javascript).
 
 - Adidas
 
-
+![adidas-landing-page](https://user-images.githubusercontent.com/67666536/148311298-2a170b3f-cd15-4339-b2de-3c8c4916d5a8.png)
 
 - Starbucks
+
+![starbucks-landing-page](https://user-images.githubusercontent.com/67666536/148311305-67cbb638-2575-4a49-b36b-f04a4bee9ae8.png)
 
 Essa landing page foi feita seguindo o passo-a-passo disponibilizado pelo canal **Online Tutorials**.
 
