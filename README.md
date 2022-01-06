@@ -7,6 +7,7 @@ Projetos simples feitos somente com HTML e CSS (e um pouco de Javascript).
 
 
 - Starbucks
+
 Essa landing page foi feita seguindo o passo-a-passo disponibilizado pelo canal **Online Tutorials**.
 
 - Link do canal: [https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog]
