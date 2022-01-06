@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+@keyframes go-back {
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(75vh at right 15vh);
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+header .logo{
+    padding-left: 20px;
+    animation: go-back 1s;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px;
+    /*box-shadow: 10px 5px 10px rgb(182, 182, 182); Caso queira*/
+}
+
+header .navbar-links{
+    position: relative;
+}
+
+header .navbar-links li{
+    display: inline-block;
+    list-style: none;
+    animation: go-back 1s;
+}
+
+header .navbar-links li a{
+    transition: ease;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13pt;
+    color: #fff;
+}
+
+header .navbar-links li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.main-container h1{
+    font-size: 40pt;
+}
+
+.main-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container .content{
+    position: relative;
+    max-width: 600px;
+    left: 10%;
+}
+
+.main-container .content p{
+    font-weight: 300;
+}
+
+.main-container .content a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+
+.imgBox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.imgBox img{
+    max-width: 800px;
+    position: absolute;
+    transition: 2s;
+    left: 50%;
+    top: -50%;
+}
+
+.imgBox p{
+    display: flex;
+    color: #fff;
+}
+
+.imgBox img:hover{
+    transform: rotate(-20deg);
+}
